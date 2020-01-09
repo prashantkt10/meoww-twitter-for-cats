@@ -1,0 +1,16 @@
+header{ padding: 2vh;border-radius: 10px;background: aliceblue;}
+.title{text-align: center;font-size: 5vw;margin: 0 auto;}
+.mew-form{width: 50%; margin: 0 auto;}
+.loading{text-align: center; margin-top: 4%;}
+.mews{width: 50%;margin: 0 auto;}
+.mewDiv{background: gainsboro;border-radius: 10px 10px 60px 10px;padding: 2%;margin-top: 10px;}
+.mewer{border-bottom: 1px solid white;}
+
+/* responsive css */
+@media only screen and (min-width: 800px) {
+    .title{font-size: 3vw;}
+}
+
+@media only screen and (max-width: 600px) {
+    .mew-form, .mews{width: 90%;}
+}
